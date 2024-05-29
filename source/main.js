@@ -36,7 +36,7 @@ var createScene = function () {
     // sphere.material = newMaterial;
 
 
-    var sphere = BABYLON.SceneLoader.ImportMesh("", "https://raw.githubusercontent.com/BabylonJS/MeshesLibrary/master/", "shaderBall.glb", scene);
+    var sphere = BABYLON.SceneLoader.ImportMesh("", "./models/", "box.glb", scene);
     sphere.material = newMaterial;
 
     // BABYLON.SceneLoader.ImportMesh("", "https://raw.githubusercontent.com/BabylonJS/MeshesLibrary/master/", "shaderBall.glb", scene, function(newMeshes){
